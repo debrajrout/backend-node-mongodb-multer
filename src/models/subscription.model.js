@@ -10,10 +10,6 @@ const subsciptionSchema = new Schema(
       type: Schema.Types.ObjectId, // one to whom 'subscriber' is subscribing
       ref: "User",
     },
-    channel2: {
-      type: Schema.Types.ObjectId, // one to whom 'subscriber' is subscribing
-      ref: "User",
-    },
   },
   { timestamps: true }
 );
